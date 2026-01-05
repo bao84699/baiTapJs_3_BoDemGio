@@ -10,21 +10,21 @@ let ms = 0;
 let kt = 0;
 
 start.addEventListener("click", () => {
-    if (kt === 0) {
+    if (kt == 0) {
         kt = setInterval(() => {
             ms += 10;
 
-            if (ms === 1000) {
+            if (ms == 1000) {
                 s++;
                 ms = 0;
             }
 
-            if (s === 60) {
+            if (s == 60) {
                 m++;
                 s = 0;
             }
 
-            if (m === 60) {
+            if (m == 60) {
                 h++;
                 m = 0;
             }
