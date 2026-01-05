@@ -43,5 +43,5 @@ reset.addEventListener("click", () => {
     clearInterval(kt);
     kt = 0;
     h = m = s = ms = 0;
-    display.textContent = "00:00:00:00";
+    display.textContent = "00:00:00.00";
 });
