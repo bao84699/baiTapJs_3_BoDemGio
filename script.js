@@ -29,7 +29,7 @@ start.addEventListener("click", () => {
                 m = 0;
             }
 
-            display.textContent = String(h).padStart(2, "0") + ":" + String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0") + ":" + String(ms/10).padStart(2, "0");
+            display.textContent = String(h).padStart(2, "0") + ":" + String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0") + "." + String(ms/10).padStart(2, "0");
         }, 10);
     }
 });
