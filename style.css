@@ -19,9 +19,9 @@ body {
     width: 591px;
     height: 244px;
     border-radius: 20px;
-    font-family: Diplomata;
+    font-family: monospace;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 70px;
     color: #3A1B8E;
     display: flex;
     align-items: center;
